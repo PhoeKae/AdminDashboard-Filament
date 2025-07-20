@@ -29,20 +29,25 @@ This project is a Laravel-based Admin Dashboard using [Filament](https://filamen
 5. php artisan serve
 6. Email: admin@example.com
    Password: password
+
    ```bash
     git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
 
  ```bash
     git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
 
-
+```bash
     cd AdminDashboard-Filament/
 
+```bash
     composer install
 
+```bash
     cp .env.example .env
     php artisan key:generate
 
+```bash
     php artisan migrate --seed
 
+```bash
     php artisan serve
