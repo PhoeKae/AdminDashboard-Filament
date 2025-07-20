@@ -16,6 +16,7 @@ This project is a Laravel-based Admin Dashboard using [Filament](https://filamen
 ## 🛠 Installation
 
 Email: admin@example.com
+
 Password: password
 
 ```bash
@@ -31,3 +32,5 @@ composer install
 php artisan migrate --seed
 ```
     php artisan serve
+
+Made with ❤️ by PhoeKae
