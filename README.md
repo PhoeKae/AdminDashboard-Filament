@@ -15,25 +15,19 @@ This project is a Laravel-based Admin Dashboard using [Filament](https://filamen
 
 ## 🛠 Installation
 
-1. **Clone the Repository**
-2. composer install
-3. cp .env.example .env
-   php artisan key:generate
-4. php artisan migrate --seed
-5. php artisan serve
-6. Email: admin@example.com
-   Password: password
+Email: admin@example.com
+Password: password
 
 ```bash
 git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
 ```
     cd AdminDashboard-Filament
 ```
-    composer install
+composer install
 ```
     cp .env.example .env
     php artisan key:generate
 ```
-    php artisan migrate --seed
+php artisan migrate --seed
 ```
     php artisan serve
