@@ -29,7 +29,7 @@ This project is a Laravel-based Admin Dashboard using [Filament](https://filamen
 5. php artisan serve
 6. Email: admin@example.com
    Password: password
-7.Visit: http://localhost:8000/admin
+7. Visit: http://localhost:8000/admin
 
 ```bash
 git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
