@@ -31,26 +31,20 @@ This project is a Laravel-based Admin Dashboard using [Filament](https://filamen
    Password: password
    ```bash
 # Clone the repo
-git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
+    git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
 
 # Go into the project directory
-cd AdminDashboard-Filament/
+    cd AdminDashboard-Filament/
 
 # Install PHP dependencies
-composer install
+    composer install
 
 # Copy .env file & generate app key
-cp .env.example .env
-php artisan key:generate
+    cp .env.example .env
+    php artisan key:generate
 
 # Setup database (edit .env accordingly)
-php artisan migrate --seed
+    php artisan migrate --seed
 
 # Start local server
-php artisan serve
-
-8. Visit: http://localhost:8000/admin
-
-```bash
-git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
-cd AdminDashboard-Filament
+    php artisan serve
