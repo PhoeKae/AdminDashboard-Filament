@@ -30,7 +30,7 @@ This project is a Laravel-based Admin Dashboard using [Filament](https://filamen
 6. Email: admin@example.com
    Password: password
 
-    ```bash
+```bash
 # Clone the repo
 git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
 
