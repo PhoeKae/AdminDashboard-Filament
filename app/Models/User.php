@@ -17,9 +17,13 @@ class User extends Authenticatable implements FilamentUser
 
     public function canAccessPanel(FilamentPanel $panel): bool
     {
-        return true;
+        return $this->role?->name === 'admin';
     }
 
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
 
     protected $fillable = [
         'name',
