@@ -2,12 +2,6 @@
 
 This project is a Laravel-based Admin Dashboard using [Filament](https://filamentphp.com/). It provides a clean and powerful admin interface with role-based access control.
 
-<p align="center">
-    <a href="https://laravel.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo">
-    </a>
-</p>
-
 ## 📋 Features
 
 - Filament Admin Panel UI
@@ -31,21 +25,15 @@ This project is a Laravel-based Admin Dashboard using [Filament](https://filamen
    Password: password
 
 ```bash
-# Clone the repo
 git clone https://github.com/PhoeKae/AdminDashboard-Filament.git
-
 ```
     cd AdminDashboard-Filament
-
 ```
     composer install
-
 ```
     cp .env.example .env
     php artisan key:generate
-
 ```
     php artisan migrate --seed
-
 ```
     php artisan serve
