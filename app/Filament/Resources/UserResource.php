@@ -29,7 +29,7 @@ class UserResource extends Resource
         return $form
             ->schema([
                 TextInput::make('name')->required(),
-                TextInput::make('email')->required()->unique(),
+                TextInput::make('email')->required(),
                 TextInput::make('password')->required()->password()->visibleOn('create'),
                 Select::make('role_id')
                     ->label('Role')
@@ -59,7 +59,6 @@ class UserResource extends Resource
             ->actions([
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
-
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([

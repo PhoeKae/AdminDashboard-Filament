@@ -15,7 +15,7 @@ class TestWidget extends BaseWidget
     {
         return [
             Stat::make('Users', User::count())->description('New users that have joined.')
-                ->descriptionIcon('heroicon-o-user-group', IconPosition::Before)->color('success')
+                ->descriptionIcon('heroicon-o-user-group', IconPosition::Before)->color('danger')
                 ->chart([1, 3, 5, 10, 20, 40]),
 
             Stat::make('Posts', Post::count())->description('Total website posts.')

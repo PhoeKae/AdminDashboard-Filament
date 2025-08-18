@@ -25,6 +25,13 @@ class User extends Authenticatable implements FilamentUser
         return $this->belongsTo(Role::class);
     }
 
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
+
+
     protected $fillable = [
         'name',
         'email',
