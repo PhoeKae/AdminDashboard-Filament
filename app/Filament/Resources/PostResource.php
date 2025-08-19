@@ -46,7 +46,12 @@ class PostResource extends Resource
                 ]),
 
                 Section::make('Photo Upload')->collapsible()->schema([
-                    FileUpload::make('thumbnail')->disk('public')->directory('thumbnails'),
+                    // FileUpload::make('thumbnail')->disk('public')->directory('thumbnails'),
+                    FileUpload::make('thumbnail')
+                        ->disk('public')
+                        ->directory('thumbnails')
+                        ->image()
+                        ->required(),
                 ]),
 
             ])->columns([
